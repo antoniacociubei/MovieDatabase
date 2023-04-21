@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>3b</title>
+<style>
+
+body {
+  background-image: url('interogare.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+form {
+  display: block;
+  margin-top: 10em;
+}
+
+div {
+  width: 500px;
+  margin-left: 60px;
+  margin-top: 50px;
+ 
+}
+
+td{
+	font-size: 25px;
+	font-weight: bold;	
+}
+
+</style>
+</head>
+
+<body>
+<div>
+<form action="rezultate3b.php" method=post>
+<h1>Persoane cu castig net mai mare de:</h1>
+<table border=0>
+<tr>
+<td>suma:</td>
+<td align="center"><input type="float" name="suma" size="10" maxlength="15"></td>
+</tr>
+<tr>
+<td>moneda:</td>
+<td align="center"><input type="text" name="moneda" size="10" maxlength="5"></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type=submit value="CAUTARE"></td>
+</tr>
+</table>
+</form>
+<form action="meniu.php" >
+<input type="submit" name="inapoi" value="INAPOI LA MENIU"></form>
+</div>
+</body>
+</html>
